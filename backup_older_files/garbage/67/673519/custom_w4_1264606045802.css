@@ -1,0 +1,42 @@
+
+/* ************************************************ */
+/* Design Css for Color: design10.css */
+
+/* td,p { font-size:12px; } */
+.bot { font-size:12px; }
+
+
+
+
+/* ************************************************ */
+/* Custom Css Part for W4 */
+#body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    color: #000000;
+    background: #FFFFFF;
+    display: table;
+}
+* html #body { height: 100%; width: 100%; overflow:auto; }
+#body td, #body div {font-size: 13px;font-family: Arial, Helvetica, sans-serif;color: #000000;}
+#body p {font-size: 13px;}
+#body .bot, #body .bot td, #body .bot p{
+font-size: 10px;color: #005500
+}
+p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+#body a, #body a:visited, #body a.pager, #body a.pager:visited {
+    color: #005500;
+    text-decoration: underline;
+}
+#body a.totop, #body a.totop:visited, #body a.totop:hover {
+    color: #005500;
+    text-decoration: none;
+}
+#body a:hover, #body a.pager:hover {
+    text-decoration: underline;
+}
+object.videoObject {display: none;}*+html object.videoObject {display: block;}* html object.videoObject {display: block;}embed.videoEmbed {display: block;}*+html embed.videoEmbed {display: none;}* html embed.videoEmbed {display: none;}

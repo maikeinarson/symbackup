@@ -1,0 +1,236 @@
+<style id='style'>.ev-{{id}} .ev-item.share_box a {background:#cat-color!important;}
+.ev-{{id}} .ev-item.share_box a {background:#cat-color!important;}
+</style>
+<div  base="Symphoniker_new" class="chronosly perfil2 ch-Symphoniker_new  ch-front ch-dad1 ev-{{id}} {{size}}">
+
+	<div class="ev-box both data" style="width:8.875%;clear:none;float:left;font-weight:bold;text-align:center;padding:0%;">
+
+         <div class='ev-item start_date'  style='width:98.59154929577466%;clear:none;float:left;font-size:34px;line-height:38px;padding:0%;'>
+            <div class='ev-data start_date'>
+                  {{start_date | time_format j}}
+              </div>
+         
+             <div class='ch-clear'></div>
+         </div>
+         <div class='ev-item start_date'  style='width:98.59154929577466%;clear:none;float:left;font-size:20px;line-height:24px;text-transform:uppercase;padding:0%;'>
+            <div class='ev-data start_date'>
+                  {{start_date | time_format M}}
+              </div>
+         
+             <div class='ch-clear'></div>
+         </div>
+		<div class="ch-clear"></div>
+	</div>
+			
+	<div class="ev-box both title" style="width:89.33333333333333%;float:right;clear:none;color:#ffffff;background-color:#274e13;padding:0%;border-left:2px solid #cat-color;border-bottom:2px solid #cat-color;">
+
+               <div class='ev-item event_title'  style='height:auto;width:auto;clear:none;float:left;color:#ffffff;font-size:24px;line-height:28px;text-transform:uppercase;text-shadow: 1px 1px 1px #0F0F0F;'>
+                  <div class='ev-data event_title'>
+                                 {{event_title}}
+                    </div>
+               
+                   <div class='ch-clear'></div>
+               </div>
+		<div class="ch-clear"></div>
+	</div>
+			
+	<div class="ev-box normal content1" style="width:89.375%;float:right;clear:none;background-color:#f1f2f2;padding:0%;border-left:2px solid #cat-color;">
+
+                     <div class='ev-item custom_link'  style='float:none;clear:none;height:auto;width:auto;color:#ffffff;font-size:16px;line-height:20px;font-weight:bold;text-align:center;text-decoration:none;background-color:#274e13;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;padding:0%;padding:0px 8px 4px 8px;position:absolute;top:0px;right:0px;'>
+                        <div class='ev-data custom_link'>
+                                 <a href="javascript:void(null)" class="ch-readmore" onclick='ev_slide("{{id}}", this)'><span class="ch-more">{{translate | Details}}</span></a>
+                          </div>
+                     
+                         <div class='ch-clear'></div>
+                     </div>
+                     <div class='ev-item cont_box'   style='width:100%;'>
+
+                     <div class='sortable'>
+                        
+                     <div class='ev-item featured_image'  style='width:8.425275827482448%;'>
+                        <div class='ev-data featured_image'>
+                                          {{event_image}}
+                          </div>
+                     
+                         <div class='ch-clear'></div>
+                     </div>
+                     <div class='ev-item place_name'  style='width:31.829896907216494%;clear:none;float:left;color:#274e13;font-size:16px;line-height:20px;font-weight:bold;'>
+                        <div class='ev-data place_name'>
+                                          <span class='ch-place-{{place_id | id 0}}'>{{place_name | id 0  | filter the_title}}</span>
+                          </div>
+                     
+                         <div class='ch-clear'></div>
+                     </div>
+                     <div class='ev-item full_time'  style='clear:none;float:left;width:45.876288659793815%;font-size:14px;line-height:18px;padding-right:25px;'>
+                        <div class='ev-data full_time'>
+                              {{full_time | time_format }}
+                          </div>
+                     
+                         <div class='ch-clear'></div>
+                     </div>
+                     <div class='ev-item place_direction'  style='clear:none;float:left;width:15.346038114343031%;font-size:14px;line-height:18px;'>
+                        <div class='ev-data place_direction'>
+                                             <span class='ch-address-{{place_id | id 0}}'>{{place_direction | id 0 }}</span>
+                          </div>
+                     
+                         <div class='ch-clear'></div>
+                     </div>
+                     <div class='ev-item place_pc'  style='width:12.036108324974924%;clear:none;float:left;font-size:14px;line-height:18px;'>
+                        <div class='ev-data place_pc'>
+                           {{place_pc | id 0 }}
+                          </div>
+                     
+                         <div class='ch-clear'></div>
+                     </div>
+                     <div class='ev-item place_city'  style='width:19.201030927835053%;clear:none;float:left;font-size:14px;line-height:18px;'>
+                        <div class='ev-data place_city'>
+                           {{place_city | id 0 }}
+                          </div>
+                     
+                         <div class='ch-clear'></div>
+                     </div>
+                     </div>
+
+                         <div class='ch-clear'></div>
+                     </div>
+		<div class="ch-clear"></div>
+	</div>
+			
+	<div class="ev-box ch-hidden content2" style="width:89.33217692974848%;float:right;clear:none;background-color:#f1f2f2;margin:0%;border-left:2px solid #cat-color;">
+
+                           <div class='ev-item cont_box'   style='width:89.08163265306122%;clear:both;float:none;background-color:#ffffff;padding:4%;margin:2%;'>
+
+                           <div class='sortable'>
+                              
+                           <div class='ev-item cont_box'   style='width:98.93048128342245%;clear:none;float:left;padding:0%;margin:0%;position:relative;'>
+
+                           <div class='sortable'>
+                              
+                           <div class='ev-item cont_box'   style='width:80.0643%;'>
+
+                           <div class='sortable'>
+                              
+                           <div class='ev-item ticket_price'  style='width:98.49056603773585%;clear:none;float:left;margin-bottom:7px;'>
+                              <div class='ev-data ticket_price'>
+                                 {{ticket_price | id 1}}
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item cont_box'   style='width:99.04610492845786%;'>
+
+                           <div class='sortable'>
+                              
+                           <div class='ev-item start_date'  style='width:98.7952%;clear:none;float:left;font-size:16px;line-height:20px;text-transform:uppercase;background:none;color:#cat-color;padding-left:4px;border-bottom:2px solid #cat-color; margin-bottom:15px;'>
+                              <div class='ev-data start_date'>
+                                    {{start_date | time_format }}
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item place_name'  style='width:98.7952%;clear:none;float:left;font-weight:bold;text-transform:uppercase;'>
+                              <div class='ev-data place_name'>
+                                                <span class='ch-place-{{place_id | id 0}}'>{{place_name | id 0  | filter the_title}}</span>
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item event_description'  style='float:left;clear:none;height:auto;width:98.69918699186991%;font-size:14px;line-height:18px;'>
+                              <div class='ev-data event_description'>
+                                       <a href="javascript:ev_popup('{{id}}&amp;post_type=chronosly')" class="ch-readmore">   {{event_description | shorten_text 5000}}</a>
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item place_name'  style='width:99.02439024390245%;clear:none;float:left;font-size:14px;line-height:18px;'>
+                              <div class='ev-data place_name'>
+                                                <span class='ch-place-{{place_id | id 0}}'>{{place_name | id 0  | filter the_title}}</span>
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           </div>
+
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item full_time'  style='width:98.9795918367347%;clear:none;float:left;font-size:14px;line-height:18px;'>
+                              <div class='ev-data full_time'>
+                                    {{full_time | time_format }}
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item place_direction'  style='clear:none;float:left;height:auto;width:auto;font-size:14px;line-height:18px;'>
+                              <div class='ev-data place_direction'>
+                                             <a href='{{place_link | id {{place_id | id 0}}}}' class='ch-readmore'>      <span class='ch-address-{{place_id | id 0}}'>{{place_direction | id 0  | text_after ,}}</span></a>
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item place_pc'  style='width:9.387755102040817%;clear:none;float:left;font-size:14px;line-height:18px;'>
+                              <div class='ev-data place_pc'>
+                                 {{place_pc | id 0 }}
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item place_city'  style='clear:none;float:left;width:17.959183673469386%;font-size:14px;line-height:18px;padding-left:0px;'>
+                              <div class='ev-data place_city'>
+                                 {{place_city | id 0 }}
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item '  style=''>
+                              <div class='ev-data '>
+                           
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           </div>
+
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item cont_box'   style='width:31.8328%;clear:none;float:none;color:#000000;text-transform:uppercase;text-align:right;bottom:0px;position:absolute;right:0px;'>
+
+                           <div class='sortable'>
+                              
+                           <div class='ev-item custom_link'  style='clear:none;float:left;height:auto;width:auto;color:#ffffff;font-family:Arial, Helvetica, sans-serif;text-align:center;text-decoration:none;background-color:#274e13;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;display: block;
+width: auto;'>
+                              <div class='ev-data custom_link'>
+                                 <a href="http://www.eventim.de/Tickets.html?affiliate=EVE&amp;fun=search&amp;action=search&amp;doc=search/search&amp;detailadoc=erdetaila&amp;detailbdoc=evdetailb&amp;kudoc=artist&amp;sort_by=score&amp;sort_direction=desc&amp;fuzzy=yes&amp;suchbegriff=berliner+symphoniker" class="ch-readmore" target="_blank"><span class="ch-more">{{translate | Karten Online kaufen}}</span></a>
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+                           </div>
+
+                               <div class='ch-clear'></div>
+                           </div>
+                           </div>
+
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item place_gmap'  style='width:98.23899371069183%;clear:none;float:left;margin-top:25px;'>
+                              <div id='gmap{{id}}{{timestamp}}' class='ev-data place_gmap'  style='width:100%; height:200px;margin-top:25px;'>
+                                  {{place_gmap | id 0}}
+                           </div>
+                               <div class='ch-clear'></div>
+                           </div>
+                           </div>
+
+                               <div class='ch-clear'></div>
+                           </div>
+                           <div class='ev-item custom_link'  style='float:none;clear:none;width:auto;height:auto;color:#ffffff;font-size:36px;line-height:40px;text-align:center;text-decoration:none;background-color:#274e13;padding:0%;padding: 0px 10px 0px 3px;padding-bottom:5px;line-height:30px;position:absolute;right:0px;bottom:0px;'>
+                              <div class='ev-data custom_link'>
+                                       <a href="javascript:void(null)" class="ch-readmore" onclick='ev_slide("{{id}}", this)'><span class="ch-more">{{translate | -}}</span></a>
+                                </div>
+                           
+                               <div class='ch-clear'></div>
+                           </div>
+		<div class="ch-clear"></div>
+	</div>
+			
+    <div style="clear:both;"></div>
+</div>
